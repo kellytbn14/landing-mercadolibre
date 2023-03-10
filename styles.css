@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Roboto, 'sans-serif';
+}
+
+/* Utils */
+.ml-50 {
+    margin-left: 50px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+/** Utils **/
+
+/* Header */
+.header {
+    background-color: #FFF159;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+.header-logo {
+    display: flex;
+    position: static;
+    width: 134px;
+    height: 34px;
+    left: 10px;
+    top: 11px;
+    background: url(media/images/logo.png);
+}
+
+.container-header {
+    display: flex;
+    position: absolute;
+    height: 80px;
+    left: calc(50% - 1200px/2);
+    top: 20px;
+}
+
+.input-header {
+    position: relative;
+    z-index: 915;
+    color: #333;
+    margin: 0;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    height: 40px;
+    width: 560px;
+    padding: 10px 60px 10px 15px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1.5px;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.button-buscar-header {
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 920;
+    color: #666;
+    line-height: 1em;
+    border-radius: 0 2px 2px 0;
+    width: 46px;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    display: block;
+    height: 26px;
+    border-left: 1px solid #e6e6e6;
+    position: absolute;
+    top: 6.5px;
+}
+
+.icono-buscar {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.header-menu-domicilio {
+    width: 785px;
+    height: 36px;
+    left: 10px;
+    top: 56px;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    color: #333333;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 35px;
+}
+
+.header-menu-item {
+    margin-right: 16px;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    color: rgba(51, 51, 51, 0.6);
+    font-weight: 500;
+    font-style: normal;
+}
+
+/** Header **/
