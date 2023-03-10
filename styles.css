@@ -125,3 +125,15 @@
 }
 
 /** Header **/
+
+/* Main */
+.novedades {
+    background-color: #333333;
+    flex-direction: row;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/** Main **/
