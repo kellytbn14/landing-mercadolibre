@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
-    font-family: Roboto, 'sans-serif';
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Utils */
@@ -63,7 +67,6 @@
     border-style: solid;
     border-color: rgba(0, 0, 0, 0);
     border-width: 1.5px;
-    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -101,7 +104,6 @@
     height: 36px;
     left: 10px;
     top: 56px;
-    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -127,13 +129,68 @@
 /** Header **/
 
 /* Main */
+
+main {
+    background-color: #ebebeb;
+}
+
 .novedades {
     background-color: #333333;
     flex-direction: row;
     display: flex;
-    -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
+}
+
+.seccion-metodos-pago {
+    margin-bottom: -30px;
+    min-height: 0;
+    padding: 40px 0;
+}
+
+.container-metodos-pago {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    height: 90px;
+    margin: 0 auto;
+    max-width: 1184px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-metodo-pago {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.item-metodo-pago-icon {
+    height: 54px;
+    margin-right: 16px;
+    width: 48px;
+}
+
+.item-metodo-pago-titulo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.item-metodo-pago-link {
+    color: #999;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.item-metodo-pago-bar {
+    border-left: 1px solid #e6e6e6;
+    height: 60px;
 }
 
 /** Main **/
