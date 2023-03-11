@@ -1,13 +1,733 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Mercadolibre</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mercadolibre</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="header">
+      <div class="container-header">
+        <div>
+          <a class="header-logo" href=""></a>
+        </div>
+        <div class="ml-50">
+          <input class="input-header" type="text" placeholder="Buscar productos, marcas y más...">
+          <button type="submit" class="button-buscar-header">
+            <div role="img" aria-label="Buscar" class="icono-buscar"></div>
+          </button>
+        </div>
+      </div>
+      <div class="container-header mt-60 ml-20">
+        <div class="header-menu-domicilio">Ingresa tu domicilio
+          <ul class="header-menu">
+            <li class="header-menu-item">Categorías
+              <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1_1_16" fill="white">
+                  <path d="M4.54688 0.757355L8.78952 5L4.54688 9.24265L0.304229 5L4.54688 0.757355Z" />
+                </mask>
+                <path
+                  d="M4.54688 9.24265L3.48621 10.3033L4.54688 11.364L5.60754 10.3033L4.54688 9.24265ZM7.72886 3.93934L3.48621 8.18199L5.60754 10.3033L9.85018 6.06066L7.72886 3.93934ZM5.60754 8.18199L1.36489 3.93934L-0.756431 6.06066L3.48621 10.3033L5.60754 8.18199Z"
+                  fill="black" fill-opacity="0.3" mask="url(#path-1-inside-1_1_16)" />
+              </svg>
+            </li>
+            <li class="header-menu-item">Ofertas</li>
+            <li class="header-menu-item">Historial</li>
+            <li class="header-menu-item">Moda</li>
+            <li class="header-menu-item">Vender</li>
+            <li class="header-menu-item">Ayuda / PQR</li>
+          </ul>
+        </div>
+        <div>
+          <ul class="header-menu">
+            <li class="header-menu-item">Crea tu cuenta</li>
+            <li class="header-menu-item">Ingresa</li>
+            <li class="header-menu-item">Mis compras</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div>
+      <img src="media/images/novedades.png" class="novedades" alt="Header">
+      <ul>
+        <li class="novedades-item"></li>
+      </ul>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion container-metodos-pago">
+          <div class="metodo-pago-item">
+            <a class="metodo-pago-item-icon" href="#">
+              <img src="media/images/credit-card.svg">
+            </a>
+            <div class="metodo-pago-item-titulo">
+              <div class="">Hasta 48 cuotas</div>
+              <div class="metodo-pago-item-link">
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="metodo-pago-item">
+            <a class="metodo-pago-item-icon" href="#">
+              <img src="media/images/transfer.svg">
+            </a>
+            <div class="metodo-pago-item-titulo">
+              <div class="">Transferencia desde tu banco</div>
+              <div class="metodo-pago-item-link">
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="metodo-pago-item">
+            <a class="metodo-pago-item-icon" href="#">
+              <img src="media/images/payment-agreement.svg">
+            </a>
+            <div class="metodo-pago-item-titulo">
+              <div class="">Paga en efectivo</div>
+              <div class="metodo-pago-item-link">
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="metodo-pago-item metodo-pago-item-bar">
+            <a class="metodo-pago-item-icon" href="#">
+              <img src="media/images/view-more.svg">
+            </a>
+            <div class="metodo-pago-item-titulo">
+              <div class="">Más medios de pago</div>
+              <div class="metodo-pago-item-link">
+                <a href="#">Ver todos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Ofertas</h2>
+          <a class="link-seccion" href="#">Ver todas</a>
+        </div>
+        <div class="container-seccion container-ofertas">
+          <div class="ofertas-item">
+            <div>
+              <div>
+                <img src="media/images/oferta-item1.png" class="ofertas-item-imagen" alt="Header">
+              </div>
+              <div class="ofertas-item-info">
+                <div>
+                  <span class="ofertas-item-precio">$ 210.900</span>
+                  <span class="ofertas-item-descuento">32% OFF</span>
+                </div>
+                <div>
+                  <span class="ofertas-item-envio">Envío gratis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ofertas-item">
+            <div>
+              <div>
+                <img src="media/images/oferta-item2.png" class="ofertas-item-imagen" alt="Header">
+              </div>
+              <div class="ofertas-item-info">
+                <div>
+                  <span class="ofertas-item-precio">$ 74.990</span>
+                  <span class="ofertas-item-descuento">25% OFF</span>
+                </div>
+                <div>
+                  <span class="ofertas-item-envio">Envío gratis
+                    <svg class="ml-5" width="40" height="22" viewBox="0 0 40 22" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M2.5639 4.65857H7.69073L5.12683 9.18833H9.4L2.5639 17.3415L4.2722 11.9064H0L2.5639 4.65857ZM13.8702 13.9591H11.959L13.5922 6.62735H19.0244L18.6576 8.27613H15.1356L14.8917 9.41955H18.3249L17.958 11.0683H14.5141L13.8702 13.9591ZM23.1073 14.0917C20.8302 14.0917 19.7083 13.0137 19.7083 11.4752C19.7083 11.3542 19.7415 11.1015 19.7639 10.9913L20.7415 6.62735H22.6849L21.719 10.9474C21.7073 11.003 21.6859 11.123 21.6859 11.2556C21.6966 11.8605 22.1639 12.443 23.1073 12.443C24.1298 12.443 24.6517 11.8049 24.84 10.9474L25.8068 6.62735H27.7395L26.7737 10.9805C26.3737 12.761 25.3961 14.0917 23.1073 14.0917ZM32.9785 13.9591H28.0907L29.7229 6.62735H31.6341L30.3785 12.3103H33.3444L32.9785 13.9591ZM39.4937 13.9591H34.6059L36.239 6.62735H38.1502L36.8946 12.3103H39.8605L39.4937 13.9591Z"
+                        fill="#00A650" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ofertas-item">
+            <div>
+              <div>
+                <img src="media/images/oferta-item3.png" class="ofertas-item-imagen" alt="Header">
+              </div>
+              <div class="ofertas-item-info">
+                <div>
+                  <span class="ofertas-item-precio">$ 134.950</span>
+                  <span class="ofertas-item-descuento">50% OFF</span>
+                </div>
+                <div>
+                  <span class="ofertas-item-envio">Envío gratis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ofertas-item">
+            <div>
+              <div>
+                <img src="media/images/oferta-item4.png" class="ofertas-item-imagen" alt="Header">
+              </div>
+              <div class="ofertas-item-info">
+                <div>
+                  <span class="ofertas-item-precio">$ 149.900</span>
+                  <span class="ofertas-item-descuento">30% OFF</span>
+                </div>
+                <div>
+                  <span class="ofertas-item-envio">Envío gratis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ofertas-item">
+            <div>
+              <div>
+                <img src="media/images/oferta-item5.png" class="ofertas-item-imagen" alt="Header">
+              </div>
+              <div class="ofertas-item-info">
+                <div>
+                  <span class="ofertas-item-precio">$ 69.990</span>
+                  <span class="ofertas-item-descuento">17% OFF</span>
+                </div>
+                <div>
+                  <svg width="40" height="22" viewBox="0 0 40 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M2.5639 4.65857H7.69073L5.12683 9.18833H9.4L2.5639 17.3415L4.2722 11.9064H0L2.5639 4.65857ZM13.8702 13.9591H11.959L13.5922 6.62735H19.0244L18.6576 8.27613H15.1356L14.8917 9.41955H18.3249L17.958 11.0683H14.5141L13.8702 13.9591ZM23.1073 14.0917C20.8302 14.0917 19.7083 13.0137 19.7083 11.4752C19.7083 11.3542 19.7415 11.1015 19.7639 10.9913L20.7415 6.62735H22.6849L21.719 10.9474C21.7073 11.003 21.6859 11.123 21.6859 11.2556C21.6966 11.8605 22.1639 12.443 23.1073 12.443C24.1298 12.443 24.6517 11.8049 24.84 10.9474L25.8068 6.62735H27.7395L26.7737 10.9805C26.3737 12.761 25.3961 14.0917 23.1073 14.0917ZM32.9785 13.9591H28.0907L29.7229 6.62735H31.6341L30.3785 12.3103H33.3444L32.9785 13.9591ZM39.4937 13.9591H34.6059L36.239 6.62735H38.1502L36.8946 12.3103H39.8605L39.4937 13.9591Z"
+                      fill="#00A650" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion container-suscripcion">
+          <div class="suscripcion-header">
+            <div class="suscripcion-titulo">Suscríbete al nivel 6</div>
+            <div class="suscripcion-titulo-precio">
+              <span class="suscripcion-titulo-precio-old">$ 50.690</span>
+              <span class="suscripcion-titulo-precio-row">
+                <span class="suscripcion-titulo-precio-new">$ 17.899 </span>
+                <span class="suscripcion-titulo-precio-new-mes">/mes</span>
+              </span>
+            </div>
+          </div>
+          <div class="suscripcion-contenido">
+            <div class="suscripcion-contenido-subtitulo">Consigue los mejores beneficios en Mercado Libre</div>
+            <div class="suscripcion-contenido-items">
+              <div class="suscripcion-contenido-item">
+                <div>
+                  <img src="media/images/dplus.svg.png" class="suscripcion-contenido-item-imagen">
+                </div>
+                <div class="suscripcion-contenido-item-descripcion ml-16">Disney+ sin cargo</div>
+              </div>
+              <div class="suscripcion-contenido-item">
+                <div>
+                  <img src="media/images/starplus.svg.png" class="suscripcion-contenido-item-imagen">
+                </div>
+                <div class="suscripcion-contenido-item-descripcion ml-16">Star+ sin cargo</div>
+              </div>
+              <div class="suscripcion-contenido-item">
+                <div>
+                  <img src="media/images/truck.png" class="suscripcion-contenido-item-imagen">
+                </div>
+                <div class="suscripcion-contenido-item-descripcion ml-16">Envíos gratis y rápidos desde $ 90.000 y 40% OFF en
+                  envíos de menos de $ 90.000</div>
+              </div>
+            </div>
+          </div>
+          <div class="suscripcion-footer">
+            <button class="button-blue button-suscribete">Suscríbete</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Beneficios de Mercado Puntos</h2>
+          <a class="link-seccion" href="#">Ver todos los beneficios</a>
+        </div>
+        <div class="container-seccion container-beneficios">
+          <div class="beneficios-item">
+            <div>
+              <img src="media/images/beneficios-fondo1.png" class="beneficios-item-fondo" alt="">
+            </div>
+            <div class="beneficios-item-info-fondo beneficios-item-info-grandiente-black">
+              <div class="beneficios-item-info">
+                <div class="beneficios-item-info-imagen">
+                  <img src="media/images/beneficios-item1.png" alt="">
+                </div>
+                <div class="beneficios-item-info-descripcion">
+                  <span class="beneficios-item-info-descripcion-titulo">Sin cargo con nivel 6</span>
+                  <span class="beneficios-item-info-descripcion-subtitulo">Disney+ y Star+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="beneficios-item">
+            <div>
+              <img src="media/images/beneficios-fondo2.png" class="beneficios-item-fondo" alt="">
+            </div>
+            <div class="beneficios-item-info-fondo beneficios-item-info-grandiente-purple">
+              <div class="beneficios-item-info">
+                <div class="beneficios-item-info-imagen">
+                  <img src="media/images/beneficios-item2.png" alt="">
+                </div>
+                <div class="beneficios-item-info-descripcion">
+                  <span class="beneficios-item-info-descripcion-dias">7 DÍAS GRATIS</span>
+                  <span class="beneficios-item-info-descripcion-titulo">Sin cargo con nivel 6</span>
+                  <span class="beneficios-item-info-descripcion-subtitulo">Disney+ y Star+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="beneficios-item">
+            <div>
+              <img src="media/images/beneficios-fondo3.png" class="beneficios-item-fondo" alt="">
+            </div>
+            <div class="beneficios-item-info-fondo beneficios-item-info-grandiente-blue">
+              <div class="beneficios-item-info">
+                <div class="beneficios-item-info-imagen">
+                  <img src="media/images/beneficios-item3.png" alt="">
+                </div>
+                <div class="beneficios-item-info-descripcion">
+                  <span class="beneficios-item-info-descripcion-dias">7 DÍAS GRATIS</span>
+                  <span class="beneficios-item-info-descripcion-titulo">Sin cargo con nivel 6</span>
+                  <span class="beneficios-item-info-descripcion-subtitulo">Disney+ y Star+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Descubre</h2>
+        </div>
+        <div class="container-seccion container-descubre">
+          <div class="descubre-item">
+            <div class="descubre-item-info">
+              <span class="info-subtitulo">RENUEVA TUS ESPACIOS</span>
+              <span class="info-titulo">HOGAR Y MUEBLES</span>
+              <span class="info-titulo">HASTA 50% OFF</span>
+              <button class="button-blue button-descubre">Ver más</button>
+            </div>
+            <div>
+              <img class="descubre-item-info-imagen" src="media/images/descubre-item1.png" alt="">
+            </div>
+          </div>
+          <div class="descubre-item">
+            <div class="descubre-item-info">
+              <span class="info-subtitulo">SUSCRÍBETE AL NIVEL 6</span>
+              <span class="info-titulo">Por solo</span>
+              <span class="info-titulo">$17.899 cada mes</span>
+              <button class="button-blue button-descubre">Suscribirme</button>
+            </div>
+            <div>
+              <img class="descubre-item-info-imagen" src="media/images/descubre-item2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Las mejores tiendas te esperan</h2>
+          <a class="link-seccion" href="#">Ver tiendas</a>
+        </div>
+        <div class="container-seccion container-tiendas">
+          <div class="tiendas-item">
+            <div>
+              <img src="media/images/tiendas-header1.png" class="tiendas-item-imagen-header" alt="">
+            </div>
+            <div class="tiendas-item-imagen-header-logo">
+              <div class="tiendas-item-imagen-header-logo-box">
+                <img src="media/images/tiendas-logo1.png" alt="">
+              </div>
+            </div>
+            <div class="tiendas-item-info">
+              <div>
+                <span class="tiendas-item-info-titulo">Lego</span>
+              </div>
+              <div class="tiendas-item-info-titulo-items">
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-1-1.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-1-2.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-1-3.png" alt="">
+                </div>
+              </div>
+              <div>
+                <span class="tiendas-item-info-link">Ver tienda</span>
+              </div>
+            </div>
+          </div>
+          <div class="tiendas-item">
+            <div>
+              <img src="media/images/tiendas-header2.png" class="tiendas-item-imagen-header" alt="">
+            </div>
+            <div class="tiendas-item-imagen-header-logo">
+              <div class="tiendas-item-imagen-header-logo-box">
+                <img src="media/images/tiendas-logo2.png" alt="">
+              </div>
+            </div>
+            <div class="tiendas-item-info">
+              <div>
+                <span class="tiendas-item-info-titulo">Xiaomi</span>
+              </div>
+              <div class="tiendas-item-info-titulo-items">
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-2-1.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-2-2.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-2-3.png" alt="">
+                </div>
+              </div>
+              <div>
+                <span class="tiendas-item-info-link">Ver tienda</span>
+              </div>
+            </div>
+          </div>
+          <div class="tiendas-item">
+            <div>
+              <img src="media/images/tiendas-header3.png" class="tiendas-item-imagen-header" alt="">
+            </div>
+            <div class="tiendas-item-imagen-header-logo">
+              <div class="tiendas-item-imagen-header-logo-box">
+                <img src="media/images/tiendas-logo3.png" alt="">
+              </div>
+            </div>
+            <div class="tiendas-item-info">
+              <div>
+                <span class="tiendas-item-info-titulo">Oster</span>
+              </div>
+              <div class="tiendas-item-info-titulo-items">
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-3-1.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-3-2.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-3-3.png" alt="">
+                </div>
+              </div>
+              <div>
+                <span class="tiendas-item-info-link">Ver tienda</span>
+              </div>
+            </div>
+          </div>
+          <div class="tiendas-item">
+            <div>
+              <img src="media/images/tiendas-header4.png" class="tiendas-item-imagen-header" alt="">
+            </div>
+            <div class="tiendas-item-imagen-header-logo">
+              <div class="tiendas-item-imagen-header-logo-box">
+                <img src="media/images/tiendas-logo4.png" alt="">
+              </div>
+            </div>
+            <div class="tiendas-item-info">
+              <div>
+                <span class="tiendas-item-info-titulo">Nikon</span>
+              </div>
+              <div class="tiendas-item-info-titulo-items">
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-4-1.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-4-2.png" alt="">
+                </div>
+                <div>
+                  <img class="tiendas-item-info-titulo-item" src="media/images/tiendas-item-4-3.png" alt="">
+                </div>
+              </div>
+              <div>
+                <span class="tiendas-item-info-link">Ver tienda</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Colecciones:</h2>
+          <a class="link-seccion subtitulo-seccion" href="#">Supermercado
+            <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_398)">
+                <path d="M13.7149 8.75L7.44338 15.0065L1.17188 8.75" stroke="#3483FA" stroke-width="1.5" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_398">
+                  <rect width="14" height="24" fill="white" transform="translate(0.671875)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+        <div class="container-seccion container-colecciones">
+          <div class="colecciones-principal">
+            <div>
+              <img class="colecciones-principal-imagen" src="media/images/colecciones-principal.png" alt="">
+            </div>
+            <div class="colecciones-info colecciones-pie-texto">
+              <span class="info-subtitulo">descubre</span>
+              <span class="info-titulo">Supermercado</span>
+            </div>
+          </div>
+          <div class="colecciones-items">
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item1.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item2.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item3.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item4.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item5.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item6.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item7.png" alt="">
+            </div>
+            <div class="colecciones-item">
+              <img src="media/images/colecciones-item8.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="seccion">
+        <div class="container-seccion">
+          <h2 class="titulo-seccion">Categorías populares</h2>
+        </div>
+        <div class="container-seccion">
+          <div class="container-categorias categorias-items">
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item1.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Carros, Motos y Otros</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item2.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Computación</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item3.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Ropa y Accesorios</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item4.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Hogar y Muebles</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item5.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Accesorios para Vehículos</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item6.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Electrodomésticos</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item7.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Cámaras y Accesorios</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item8.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Celulares y Teléfonos</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item9.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Belleza y Cuidado Personal</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item10.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Deportes y Fitness</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item11.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Electrónica, Audio y Video</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item13.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Consolas y Videojuegos</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item14.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Juegos y Juguetes</span>
+              </div>
+            </div>
+            <div class="categorias-item">
+              <div>
+                <img src="media/images/categorias-item1.png" alt="">
+              </div>
+              <div>
+                <span class="container-categorias-item-info">Herramientas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-footer-info">
+      <div class="footer-info-items">
+        <div class="footer-info-item">
+          <div>
+            <img class="footer-info-item-image" src="media/images/footer-info-card.png" alt="">
+          </div>
+          <div class="footer-info-item-info">
+            <span class="footer-info-item-info-titulo">Paga con tarjeta o en efectivo</span>
+            <span class="footer-info-item-info-subtitulo">
+              Con Mercado Pago, paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con
+              efectivo en puntos de pago. ¡Y siempre es seguro!
+            </span>
+            <span class="footer-info-item-info-link">Cómo pagar con Mercado Pago</span>
+          </div>
+        </div>
+        <div class="footer-info-item-slide"></div>
+        <div class="footer-info-item">
+          <div>
+            <img class="footer-info-item-image" src="media/images/footer-info-box.png" alt="">
+          </div>
+          <div class="footer-info-item-info">
+            <span class="footer-info-item-info-titulo">Envío gratis desde $ 90.000</span>
+            <span class="footer-info-item-info-subtitulo">
+              Con solo estar registrado en Mercado Libre, tienes envíos gratis en miles de productos seleccionados.
+            </span>
+            <span class="footer-info-item-info-link">Conoce más sobre este beneficio</span>
+          </div>
+        </div>
+        <div class="footer-info-item-slide"></div>
+        <div class="footer-info-item">
+          <div>
+            <img class="footer-info-item-image" src="media/images/footer-info-security.png" alt="">
+          </div>
+          <div class="footer-info-item-info">
+            <span class="footer-info-item-info-titulo">Paga con tarjeta o en efectivo</span>
+            <span class="footer-info-item-info-subtitulo">
+              ¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre
+              protegido.
+            </span>
+            <span class="footer-info-item-info-link">Cómo te protegemos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="footer-info">
+        <div>
+          <ul class="footer-info-ul">
+            <li class="footer-info-li">Trabaja con nosotros</li>
+            <li class="footer-info-li">Términos y condiciones</li>
+            <li class="footer-info-li">Cómo cuidamos tu privacidad</li>
+            <li class="footer-info-li">Accesibilidad</li>
+            <li class="footer-info-li">Ayuda / PQR</li>
+            <li class="footer-info-li">www.sic.gov.co</li>
+          </ul>
+        </div>
+        <div class="footer-info-copyright">
+          <span class="footer-info-copyright-text">Copyright © 1999-2023 MercadoLibre Colombia LTDA.</span>
+          <span class="footer-info-copyright-text">Carrera 17 Numero 93 - 09 Piso 3, Bogotá D.C., Colombia</span>
+        </div>
+      </div>
+      <div class="footer-logos">
+        <div class="footer-logos-row">
+          <img src="media/images/footer-logo-industria-comercio.png" alt="">
+          <img src="media/images/footer-logo-pare.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
