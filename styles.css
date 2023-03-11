@@ -783,6 +783,8 @@ main {
     align-items: center;
     text-align: center;
     color: #333333;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /** Main **/
