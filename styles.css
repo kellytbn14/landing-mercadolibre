@@ -182,6 +182,27 @@ main {
     margin-left: 16px;
 }
 
+.info-subtitulo {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.info-titulo {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
 .novedades {
     background-color: #333333;
     flex-direction: row;
@@ -578,27 +599,6 @@ main {
     align-items: left;
 }
 
-.descubre-item-info-subtitulo {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 12px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #4B4B4B;
-}
-
-.descubre-item-info-titulo {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    color: #4B4B4B;
-}
-
 .button-descubre {
     margin-top: 13.5px;
     width: 96px;
@@ -687,6 +687,61 @@ main {
     align-items: center;
     text-align: center;
     color: #999999;
+}
+
+.container-colecciones {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.subtitulo-seccion {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.colecciones-elementos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.colecciones-principal {
+    width: 383px;
+    height: 384px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px
+}
+
+.colecciones-principal-imagen {
+    border-radius: 4px 4px 0 0;
+}
+
+.colecciones-info {
+    width: 383px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 20px 25px;
+}
+
+.colecciones-items {
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.colecciones-item {
+    width: 184px;
+    height: 184px;
+    border-radius: 4px;
+    background-color: #fff;
 }
 
 /** Main **/
