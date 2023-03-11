@@ -43,11 +43,7 @@ body {
 }
 
 .button-blue {
-    width: 123.72px;
-    height: 48px;
-    margin-left: 1000px;
     background: #3483FA;
-    border-radius: 6px;
     border-color: transparent;
     color: #fff;
 }
@@ -460,6 +456,13 @@ main {
     padding: 16px 30px;
 }
 
+.button-suscribete {
+    width: 123.72px;
+    height: 48px;
+    margin-left: 1000px;
+    border-radius: 6px;
+}
+
 .container-beneficios {
     margin: 0 auto;
     height: 266px;
@@ -551,4 +554,69 @@ main {
     align-items: center;
     color: #FFFFFF;
 }
+
+.container-descubre {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 16px;
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.descubre-item {
+    width: 584px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descubre-item-info-imagen {
+    border-radius: 4px;
+}
+
+.descubre-item-info {
+    padding-left: 32px;
+    margin-top: 25.7px;
+    width: 287.34px;
+    height: 198.59px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: left;
+}
+
+.descubre-item-info-subtitulo {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.descubre-item-info-titulo {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+
+.button-descubre {
+    margin-top: 13.5px;
+    width: 96px;
+    height: 36px;
+    border-radius: 2px;
+}
+
 /** Main **/
