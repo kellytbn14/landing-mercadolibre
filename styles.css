@@ -606,4 +606,87 @@ main {
     border-radius: 2px;
 }
 
+.container-tiendas {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.tiendas-item {
+    width: 284px;
+    height: 340px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.tiendas-item-imagen-header {
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    width: 284px;
+    height: 95px;
+    border-radius: 4px 4px 0 0;
+}
+
+.tiendas-item-imagen-header-logo {
+    padding-top: 55px;
+    height: 80px;
+    width: 284px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tiendas-item-imagen-header-logo-box {
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.tiendas-item-info {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tiendas-item-info-titulo {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.tiendas-item-info-titulo-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+}
+
+.tiendas-item-info-titulo-item {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+.tiendas-item-info-link {
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+}
+
 /** Main **/
