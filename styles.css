@@ -165,6 +165,7 @@ main {
     margin: 0 auto;
     max-width: 1184px;
     display: flex;
+    margin-top: 20px;
 }
 
 .titulo-seccion {
@@ -201,11 +202,12 @@ main {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     height: 90px;
     overflow: hidden;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.item-metodo-pago {
+.metodo-pago-item {
     display: flex;
     flex-direction: row;
     font-size: 16px;
@@ -214,39 +216,35 @@ main {
     margin-right: 10px;
 }
 
-.item-metodo-pago-icon {
+.metodo-pago-item-icon {
     height: 54px;
     margin-right: 16px;
     width: 48px;
 }
 
-.item-metodo-pago-titulo {
+.metodo-pago-item-titulo {
     display: flex;
     flex-direction: column;
     margin-top: 1px;
 }
 
-.item-metodo-pago-link {
+.metodo-pago-item-link {
     color: #999;
     font-size: 14px;
     margin-top: -1px;
 }
 
-.item-metodo-pago-bar {
+.metodo-pago-item-bar {
     border-left: 1px solid #e6e6e6;
     height: 60px;
 }
 
 .container-ofertas {
-    display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    max-width: 1184px;
     gap: 16px;
-    margin-top: 20px;
 }
 
-.item-ofertas {
+.ofertas-item {
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
@@ -254,7 +252,7 @@ main {
     height: 350px;
 }
 
-.item-ofertas-imagen {
+.ofertas-item-imagen {
     height: 224px;
     width: 224px;
     box-sizing: border-box;
@@ -262,25 +260,25 @@ main {
     margin: 0;
 }
 
-.item-ofertas-info {
+.ofertas-item-info {
     padding: 20px 10px 20px 16px;
     border-top: 1px solid rgba(51, 51, 51, .1);
 }
 
-.item-ofertas-precio {
+.ofertas-item-precio {
     font-size: 24px;
     color: #333333;
     line-height: 1em;
 }
 
-.item-ofertas-descuento {
+.ofertas-item-descuento {
     color: #00A650;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
 }
 
-.item-ofertas-envio {
+.ofertas-item-envio {
     color: #00A650;
     font-weight: 600;
     font-size: 13px;
@@ -293,12 +291,8 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    width: 1184px;
     height: 330px;
-    display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 1184px;
 }
 
 .suscripcion-header {
@@ -464,13 +458,9 @@ main {
 }
 
 .container-beneficios {
-    margin: 0 auto;
     height: 266px;
-    display: flex;
     flex-direction: row;
     gap: 16px;
-    max-width: 1184px;
-    margin-top: 10px;
 }
 
 .beneficios-item {
@@ -559,9 +549,6 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 16px;
-    max-width: 1184px;
-    margin: 0 auto;
-    margin-top: 10px;
 }
 
 .descubre-item {
