@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.debug {
+    border: 1px red !important;
 }
 
 body {
@@ -35,8 +38,18 @@ body {
     margin-bottom: 30px;
 }
 
-.mr-5{
+.mr-5 {
     margin-right: 5px;
+}
+
+.button-blue {
+    width: 123.72px;
+    height: 48px;
+    margin-left: 1000px;
+    background: #3483FA;
+    border-radius: 6px;
+    border-color: transparent;
+    color: #fff;
 }
 
 /** Utils **/
@@ -48,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 32px;
+    box-sizing: border-box;
 }
 
 .header-logo {
@@ -86,6 +100,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    box-sizing: border-box;
 }
 
 .button-buscar-header {
@@ -178,7 +193,7 @@ main {
     width: 100%;
 }
 
-.seccion-metodos-pago {
+.seccion {
     margin-bottom: -30px;
     min-height: 0;
     padding: 40px 0;
@@ -276,6 +291,173 @@ main {
     line-height: 16px;
     display: flex;
     align-items: center;
+}
+
+.container-suscripcion {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 1184px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1184px;
+}
+
+.suscripcion-header {
+    width: 1180px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+}
+
+.suscripcion-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 300px;
+    height: 38px;
+    margin-left: 24px;
+    margin-top: 24.5px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.suscripcion-titulo-precio {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #FFFFFF;
+    text-align: right;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 150px;
+    height: 38px;
+    margin-left: 24px;
+    margin-top: 24.5px;
+    color: #FFFFFF;
+}
+
+.suscripcion-titulo-precio-old {
+    width: 56px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: line-through;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.suscripcion-titulo-precio-new {
+    width: 88px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.suscripcion-titulo-precio-new-mes {
+    width: 30px;
+    height: 14px;
+    left: 93.45px;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.suscripcion-titulo-precio-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.suscripcion-contenido-subtitulo {
+    width: 400.15px;
+    height: 25px;
+    margin-left: 24px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.suscripcion-contenido-items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.suscripcion-contenido-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 160px 0px 0px;
+    width: 377.33px;
+    height: 74px;
+    justify-content: space-between;
+}
+
+.suscripcion-contenido-item-imagen {
+    box-sizing: border-box;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #EFEFEF;
+    border-radius: 37px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.suscripcion-contenido-item-descripcion {
+    width: 180px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.suscripcion-footer {
+    width: 1180px;
+    border-top: 1px solid #EDEDED;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
 }
 
 /** Main **/
