@@ -746,6 +746,8 @@ main {
 
 .container-categorias {
     display: grid;
+    border-radius: 4px;
+    margin-bottom: 10px;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
